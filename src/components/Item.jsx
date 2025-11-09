@@ -28,7 +28,7 @@ export default function Item({ items }) {
                     <button onClick={handleNumberItems} className="bg-fuchsia-500 w-full text-white rounded p-0.5 hover:bg-fuchsia-800 transition">Clear All</button>
                 </div> :
                 <div>
-                    <h1 className="text-4xl">{numberItems} birthdays Today</h1>
+                    <h1 className="text-4xl pb-5">{numberItems} birthdays Today</h1>
                     <button className="bg-fuchsia-500 w-full text-white rounded p-0.5 hover:bg-fuchsia-800 transition">Clear All</button>
                 </div>}
         </>
